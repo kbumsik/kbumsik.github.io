@@ -2,7 +2,47 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://kbumsik.github.io/about/</loc>
+    <lastmod>2017-02-26T23:23:51-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://kbumsik.github.io/post/Converting-STLink-to-JLink/</loc>
+    <lastmod>2017-02-24T23:56:41-05:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://kbumsik.github.io/</loc>
+    <lastmod>2017-02-24T23:56:41-05:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://kbumsik.github.io/tags/debugging/</loc>
+    <lastmod>2017-02-24T23:56:41-05:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://kbumsik.github.io/tags/embedded-system/</loc>
+    <lastmod>2017-02-24T23:56:41-05:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://kbumsik.github.io/post/</loc>
+    <lastmod>2017-02-24T23:56:41-05:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://kbumsik.github.io/tags/stm32/</loc>
+    <lastmod>2017-02-24T23:56:41-05:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://kbumsik.github.io/tags/</loc>
     <priority>0</priority>
   </url>
   
