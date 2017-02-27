@@ -29,7 +29,23 @@ debugger, ST-LINK V2/V2.1, and they provide interfaces to debug external MCUs.
 One top of that, a Nucleo-64 can be cut into a main board and a ST-LINK V2.1
 and you can use the ST-LINK V2.1 as a separate debugger.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;https://kbumsik.github.io/static/img/post/nucleo-structure.png&#34; alt=&#34;Structure of Nucleo 64 board. You can cut ST-LINK part or the PCB.&#34; /&gt;&lt;/p&gt;
+
+&lt;figure &gt;
+    
+        &lt;img src=&#34;https://kbumsik.github.io/img/post/nucleo-structure.png&#34; alt=&#34;Structure of Nucleo 64 board. You can cut ST-LINK part or the PCB.&#34; width=&#34;350&#34; /&gt;
+    
+    
+    &lt;figcaption&gt;
+        &lt;p&gt;
+        Structure of Nucleo 64 board. You can cut ST-LINK part or the PCB.
+        
+            
+        
+        &lt;/p&gt; 
+    &lt;/figcaption&gt;
+    
+&lt;/figure&gt;
+
 
 &lt;p&gt;However, there is one slight caveat: the on-board ST-LINK is a bit slow.
 It takes several seconds to write program into the MCU and stepping down
@@ -39,7 +55,23 @@ understandable as these boards are small and cheap embedded systems and it
 is likely to have a low performance debugger. But it would not take a long
 time to realize that is just an excuse when you debug other manufacturer boards.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;https://kbumsik.github.io/static/img/post/j-link-ob.png&#34; alt=&#34;Top: J-Link. Bottom: J-Link OB attached to a target MCU.&#34; /&gt;&lt;/p&gt;
+
+&lt;figure &gt;
+    
+        &lt;img src=&#34;https://kbumsik.github.io/img/post/j-link-ob.png&#34; alt=&#34;Top: J-Link. Bottom: J-Link OB attached to a target MCU.&#34; width=&#34;350&#34; /&gt;
+    
+    
+    &lt;figcaption&gt;
+        &lt;p&gt;
+        Top: J-Link. Bottom: J-Link OB attached to a target MCU.
+        
+            
+        
+        &lt;/p&gt; 
+    &lt;/figcaption&gt;
+    
+&lt;/figure&gt;
+
 
 &lt;h2 id=&#34;converting-on-board-debugger-into-j-link&#34;&gt;Converting On-board Debugger Into J-Link&lt;/h2&gt;
 
