@@ -4,6 +4,8 @@ title: About
 permalink: /about/
 ---
 
+![my_photo]({{ "/assets/my_photo.png" | absolute_url }}){:class="img-responsive" height="150px"}
+
 <div>
     <ul class="contact-list">
         <li>
