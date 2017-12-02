@@ -43,6 +43,10 @@ $on-laptop:        800px !default;
   font-size: $base-font-size * $ratio;
 }
 
+@mixin relative-font-weight($ratio) {
+  font-weight: $base-font-weight * $ratio;
+}
+
 // Import partials.
 @import
   "minima/base",
