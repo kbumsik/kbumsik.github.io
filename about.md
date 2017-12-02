@@ -4,7 +4,27 @@ title: About
 permalink: /about/
 ---
 
+<div>
+    <ul class="contact-list">
+        <li>
+            {% if site.author %}
+              {{ site.author | escape }}
+            {% else %}
+              {{ site.title | escape }}
+            {% endif %}
+        </li>
+        {% if site.email %}
+        <li><a href="mailto:{{ site.email }}">{{ site.email }}</a></li>
+        {% endif %}
+    </ul>
+</div>
+
+<div>
+    {% include social.html %}
+</div>
+
 Software engineer. Passion for low-level technologies and embedded hardware design.
+
 
 ## Open Source Contributions
 
