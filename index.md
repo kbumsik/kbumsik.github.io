@@ -18,5 +18,5 @@ layout: home
 
 ## Projects
 
-<div class="github-card" data-github="kbumsik/WolfieMouse" data-width="400" data-height="200" data-theme="medium"></div>
+<div class="github-card" data-github="kbumsik/WolfieMouse" data-width="370" data-height="200" data-theme="medium"></div>
 <script src="//cdn.jsdelivr.net/github-cards/latest/widget.js"></script>
