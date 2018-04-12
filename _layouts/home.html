@@ -6,6 +6,31 @@ layout: default
 
   {{ content }}
 
+<script>
+(function() {
+  document.addEventListener('DOMContentLoaded', function() {
+    // Gets the full repo name from the data attribute and
+    // fetches the data from the api.
+    var cards = document.querySelectorAll("[data-gh-project]")
+    cards.forEach(function(e) {
+      var repo = e.getAttribute('data-gh-project');
+
+      function xhrOnload() {
+        var j = JSON.parse(this.responseText);
+        e.querySelector('.fork a').textContent = j.forks_count;
+        e.querySelector('.star a').textContent = j.stargazers_count;
+      }
+
+      var xhr = new XMLHttpRequest();
+      xhr.onload = xhrOnload;
+      xhr.open('get', 'https://api.github.com/repos/' + repo, true);
+      xhr.setRequestHeader('Accept', 'application/vnd.github.v3+json');
+      xhr.send();
+    })
+  }, false);
+})();
+</script>
+
   <h1 class="page-heading">Posts</h1>
   
   <ul class="post-list">

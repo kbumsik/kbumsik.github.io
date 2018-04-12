@@ -18,5 +18,19 @@ layout: home
 
 ## Projects
 
-<div class="github-card" data-github="kbumsik/WolfieMouse" data-width="370" data-height="200" data-theme="medium"></div>
-<script src="//cdn.jsdelivr.net/github-cards/latest/widget.js"></script>
+<div class="card" data-gh-project="kbumsik/WolfieMouse">
+  <header class="card-header">
+    <p class="card-suptitle">On <a href="https://github.com/kbumsik/WolfieMouse" title="View on GitHub">GitHub</a></p>
+    <h1 class="card-title"><a href="https://github.com/kbumsik/WolfieMouse" title="View more">WolfieMouse</a></h1>
+  </header>
+  <div class="card-body">
+    <dl class="card-details">
+      <dt>Forked</dt>
+      <dd class="fork"><a href="https://github.com/kbumsik/WolfieMouse/fork" title="View fork details"><!-- Fork count via javascript --></a></dd>
+      <dt>Starred</dt>
+      <dd class="star"><a href="https://github.com/kbumsik/WolfieMouse/stargazers" title="View fork details"><!-- Stargazers count via javascript --></a></dd>
+    </dl>
+  </div>
+</div>
+
+<br/>
