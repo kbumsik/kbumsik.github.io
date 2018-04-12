@@ -15,3 +15,5 @@ $ bundle exec jekyll serve
 ```
 
 Then browse to http://localhost:4000 by default.
+
+There are useful scripts in `scripts` directory.
