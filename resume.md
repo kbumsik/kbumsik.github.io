@@ -1,32 +1,8 @@
 ---
 layout: page
-title: About
-permalink: /about/
+title: Resume
+permalink: /resume/
 ---
-
-![my_photo]({{ "/assets/my_photo.png" | absolute_url }}){:class="img-responsive" height="150px"}
-
-<div>
-    <ul class="contact-list">
-        <li>
-            {% if site.author %}
-              {{ site.author | escape }}
-            {% else %}
-              {{ site.title | escape }}
-            {% endif %}
-        </li>
-        {% if site.email %}
-        <li><a href="mailto:{{ site.email }}">{{ site.email }}</a></li>
-        {% endif %}
-    </ul>
-</div>
-
-<div>
-    {% include social.html %}
-</div>
-
-Software engineer. Passion for low-level technologies and embedded hardware design.
-
 
 ## Open Source Contributions
 
