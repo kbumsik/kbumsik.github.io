@@ -4,3 +4,14 @@
 # See: https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 layout: home
 ---
+
+<div class="intro-col-wrapper">
+    <div class="intro-col intro-col-1">
+        <img src="{{ "/assets/my_photo.png" | absolute_url }}" alt="my_photo" class="img-responsive" height="150px">
+    </div>
+    <div class="intro-col intro-col-2">
+        <h2 id="hi-there">Hi there!</h2>
+        <p>I’m a software engineer who has a passion for system programing, low-level technologies, and embedded hardware design.</p>
+        <p>If you’d like to chat, feel free to <a href="mailto:{{ site.email }}">send me an email</a></p>
+    </div>
+</div>
