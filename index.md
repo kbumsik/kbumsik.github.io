@@ -15,3 +15,8 @@ layout: home
         <p>If you’d like to chat, feel free to <a href="mailto:{{ site.email }}">send me an email</a></p>
     </div>
 </div>
+
+## Projects
+
+<div class="github-card" data-github="kbumsik/WolfieMouse" data-width="400" data-height="200" data-theme="medium"></div>
+<script src="//cdn.jsdelivr.net/github-cards/latest/widget.js"></script>
