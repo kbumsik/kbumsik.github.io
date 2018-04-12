@@ -7,7 +7,7 @@ layout: home
 
 <div class="intro-col-wrapper">
     <div class="intro-col intro-col-1">
-        <img src="{{ "/assets/my_photo.png" | absolute_url }}" alt="my_photo" class="img-responsive" height="150px">
+        <img src="{{ "/assets/my_photo.png" }}" alt="my_photo" height="150px">
     </div>
     <div class="intro-col intro-col-2">
         <h2 id="hi-there">Hi there!</h2>

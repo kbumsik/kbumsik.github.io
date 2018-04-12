@@ -16,6 +16,13 @@
   color: $grey-color;
 }
 
+.intro-col-wrapper img {
+  margin-left: auto;
+  margin-right: auto;
+  object-fit: contain;
+  display: block;
+}
+
 .intro-col-1 {
   width: -webkit-calc(35% - (#{$spacing-unit} / 2));
   width:         calc(35% - (#{$spacing-unit} / 2));
