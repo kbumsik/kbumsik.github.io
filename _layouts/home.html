@@ -7,12 +7,12 @@ layout: default
   {{ content }}
 
 <script>
-(function() {
-  document.addEventListener('DOMContentLoaded', function() {
+(function () {
+  function onDOMLoaded() {
     // Gets the full repo name from the data attribute and
     // fetches the data from the api.
-    var cards = document.querySelectorAll("[data-gh-project]")
-    cards.forEach(function(e) {
+    var cards = document.querySelectorAll("[data-gh-project]");
+    cards.forEach(function (e) {
       var repo = e.getAttribute('data-gh-project');
 
       function xhrOnload() {
@@ -20,14 +20,15 @@ layout: default
         e.querySelector('.fork a').textContent = j.forks_count;
         e.querySelector('.star a').textContent = j.stargazers_count;
       }
-
+      
       var xhr = new XMLHttpRequest();
       xhr.onload = xhrOnload;
       xhr.open('get', 'https://api.github.com/repos/' + repo, true);
       xhr.setRequestHeader('Accept', 'application/vnd.github.v3+json');
       xhr.send();
-    })
-  }, false);
+    });
+  }
+  document.addEventListener('DOMContentLoaded', onDOMLoaded, false);
 })();
 </script>
 
