@@ -63,6 +63,9 @@ theme: minima
 #  - vendor/gems/
 #  - vendor/ruby/
 
+# Google Analytics
+google_analytics: UA-53338732-2
+
 # Github page plugins
 plugins:
   - jekyll-seo-tag
