@@ -3,6 +3,8 @@ layout: post
 title: "Using iPad as a 2nd monitor on Linux"
 categories: linux
 author: "Bumsik Kim"
+tags: linux bash x11
+# permalink: /:categories/:year/:month/:day/:title:output_ext
 ---
 
 A year ago, I switched to Linux from Windows and I am happy with it. I had always used a VM to run Linux before but I am finally getting to know how things work in Linux after natively installing it. There are many Linux alternatives for Windows programs so I normally have no problem using Linux programs.
