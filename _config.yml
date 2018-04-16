@@ -68,8 +68,8 @@ highlighter: rouge
 google_analytics: UA-53338732-2
 
 # Disqus
-comments: true
-disqus.shortname: bumsikkim
+disqus:
+  shortname: bumsikkim
 
 # Github page plugins
 plugins:
