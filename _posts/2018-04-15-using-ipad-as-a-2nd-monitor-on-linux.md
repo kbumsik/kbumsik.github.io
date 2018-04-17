@@ -11,7 +11,7 @@ tags: linux bash x11
 
 A year ago, I switched to Linux from Windows, and I am happy with it. I had always used a VM to run Linux before, but I am finally getting to know how things work in Linux after natively installing it. There are many Linux alternatives for Windows programs, so I normally have no problem using Linux programs.
 
-The only thing I missed about Windows is iPad dual monitor apps like [Duet Display][Duet]. No Linux programs work automagically like Duet. A little bit of searching the web led me to some solutions like [Aditya's post][ref-aditya] and [a thread in Arch Linux forum][ref-arch], so I was able to make my iPad a second display. However, the solutions in the post required to input some command manually every time I enable dual screen and don’t work nicely as-is.
+The only thing I missed about Windows is iPad dual monitor apps like [Duet Display][Duet]. A little bit of searching the web led me to some solutions like [Aditya's post][ref-aditya] and [a thread in Arch Linux forum][ref-arch], so I was able to make my iPad a second display. However, the solutions in the post required to input some command manually every time I enable dual screen and don’t work nicely as-is.
 
 As I tired typing commands by hand and memorizing them, I decided to write my own script `ipad_monitor.sh`. This script is still far from “automagically” but it works mostly out of the box. All you need to do is changing `WIDTH` and `HEIGHT` at the beginning of the code. Since it uses VNC to connect to an iPad, it also works with any tablet and computer with a VNC client. Here it goes:
 
