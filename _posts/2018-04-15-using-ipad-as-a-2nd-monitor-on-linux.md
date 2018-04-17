@@ -27,7 +27,7 @@ So, what the script does is 1. to parse arguments to set a proper resolution, 2.
 
 1. Install [`x11vnc`](https://github.com/LibVNC/x11vnc) first: `sudo apt-get install x11vnc`.
 2. Change `WIDTH` and `HEIGHT` in the script to change the resolution.
-3. Figure out your IP address using `ip addr` or `ifconfig`
+3. Figure out your local IP address using `ip addr` or `ifconfig`
 4. Run this script. Addtional arguments are self-explanatory. Example arguments:
 ```bash
 ./ipad_monitor.sh -r    # or --right. Second screen appears right to the primary monitor.
@@ -42,7 +42,7 @@ So, what the script does is 1. to parse arguments to set a proper resolution, 2.
 
 ## Performace
 
-I use i5-4210M laptop as a VNC server and iPad Pro 2nd Gen as a client. Testing is done on a local area network, meaning that the VNC server and client are connected to the same home router using WiFi, and with VNC screen both at 1368x1024 and 2736x2048 with full colors.
+I use an i5-4210M laptop as a VNC server and iPad Pro 2nd Gen as a client. Testing is done on a local area network, meaning that the VNC server and client are connected to the same home router using WiFi, and with VNC screen both at 1368x1024 and 2736x2048 with full colors.
 
 Just like I do daily with a second screen, I tried using a web browser on the VNC screen. Although it did not work as smoothly as paid dual screen apps or Windows RDP, it worked pretty fine. It showed the browser window almost instantly and the screen update rate was not bad when I fast scrolled up and down the browser. The screen shutterEverything worked without a big issue.
 
