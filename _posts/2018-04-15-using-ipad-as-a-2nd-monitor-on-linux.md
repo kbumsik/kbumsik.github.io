@@ -19,7 +19,7 @@ As I tired typing commands by hand and memorizing them, I decided to write my ow
 [ref-aditya]: http://www.adityavaidya.com/2015/03/ipad-as-2nd-monitor-now-on-linux.html
 [ref-arch]: https://bbs.archlinux.org/viewtopic.php?id=191555
 
-<script src="http://gist.github.com/kbumsik/e9717525fec7b6e98524765958044146.js"></script>
+<script src="https://gist.github.com/kbumsik/e9717525fec7b6e98524765958044146.js"></script>
 
 So, what the script does is 1. to parse arguments to set a proper resolution, 2. add a display mode using `XRandR`, 3. Output it next to a primary display, 4. and run `x11vnc` to transmit the screen through VNC.
 
