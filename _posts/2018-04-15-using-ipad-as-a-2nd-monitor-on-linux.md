@@ -7,6 +7,8 @@ tags: linux bash x11
 # permalink: /:categories/:year/:month/:day/:title:output_ext
 ---
 
+![dual_screen]({{ "/assets/dual_screen.jpg" }})
+
 A year ago, I switched to Linux from Windows, and I am happy with it. I had always used a VM to run Linux before, but I am finally getting to know how things work in Linux after natively installing it. There are many Linux alternatives for Windows programs, so I normally have no problem using Linux programs.
 
 The only thing I missed about Windows is iPad dual monitor apps like [Duet Display][Duet]. No Linux programs work automagically like Duet. A little bit of searching the web led me to some solutions like [Aditya's post][ref-aditya] and [a thread in Arch Linux forum][ref-arch], so I was able to make my iPad a second display. However, the solutions in the post required to input some command manually every time I enable dual screen and don’t work nicely as-is.
