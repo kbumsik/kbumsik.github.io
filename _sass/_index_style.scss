@@ -31,3 +31,8 @@
   width: -webkit-calc(65% - (#{$spacing-unit} / 2));
   width:         calc(65% - (#{$spacing-unit} / 2));
 }
+
+.intro-col-half {
+  width: -webkit-calc(50% - (#{$spacing-unit} / 2));
+  width:         calc(50% - (#{$spacing-unit} / 2));
+}
