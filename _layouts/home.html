@@ -17,8 +17,8 @@ layout: default
 
       function xhrOnload() {
         var j = JSON.parse(this.responseText);
-        e.querySelector('.fork a').textContent = j.forks_count;
-        e.querySelector('.star a').textContent = j.stargazers_count;
+        e.querySelector('.github-fork a').textContent = j.forks_count;
+        e.querySelector('.github-star a').textContent = j.stargazers_count;
       }
       
       var xhr = new XMLHttpRequest();

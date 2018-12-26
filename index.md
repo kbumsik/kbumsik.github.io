@@ -18,38 +18,34 @@ layout: home
 
 ## Projects
 
-<div class="intro-col-wrapper">
-  <div class="intro-col intro-col-half">
-    <div class="card" data-gh-project="kbumsik/WolfieMouse">
-      <header class="card-header">
-        <p class="card-suptitle">On <a href="https://github.com/kbumsik/WolfieMouse" title="View on   GitHub">GitHub</a></p>
-        <h1 class="card-title"><a href="https://github.com/kbumsik/WolfieMouse" title="View   more">WolfieMouse</a></h1>
-      </header>
-      <div class="card-body">
-        <dl class="card-details">
-          <dt>Forked</dt>
-          <dd class="fork"><a href="https://github.com/kbumsik/WolfieMouse/fork" title="View fork   details"><!-- Fork count via javascript --></a></dd>
-          <dt>Starred</dt>
-          <dd class="star"><a href="https://github.com/kbumsik/WolfieMouse/stargazers" title="View fork   details"><!-- Stargazers count via javascript --></a></dd>
-        </dl>
-      </div>
+<div class="projects-cards">
+  <div class="github-card" data-gh-project="kbumsik/WolfieMouse">
+    <header class="github-card-header">
+      <p class="github-card-suptitle">On <a href="https://github.com/kbumsik/WolfieMouse" title="View on   GitHub">GitHub</a></p>
+      <h1 class="github-card-title"><a href="https://github.com/kbumsik/WolfieMouse" title="View   more">WolfieMouse</a></h1>
+    </header>
+    <div class="github-card-body">
+      <dl class="github-card-details">
+        <dt>Forked</dt>
+        <dd class="github-fork"><a href="https://github.com/kbumsik/WolfieMouse/fork" title="View fork   details"><!-- Fork count via javascript --></a></dd>
+        <dt>Starred</dt>
+        <dd class="github-star"><a href="https://github.com/kbumsik/WolfieMouse/stargazers" title="View fork   details"><!-- Stargazers count via javascript --></a></dd>
+      </dl>
     </div>
   </div>
 
-  <div class="intro-col intro-col-half">
-    <div class="card" data-gh-project="kbumsik/VirtScreen">
-      <header class="card-header">
-        <p class="card-suptitle">On <a href="https://github.com/kbumsik/VirtScreen" title="View on  GitHub">GitHub</a></p>
-        <h1 class="card-title"><a href="https://github.com/kbumsik/VirtScreen" title="View  more">VirtScreen</a></h1>
-      </header>
-      <div class="card-body">
-        <dl class="card-details">
-          <dt>Forked</dt>
-          <dd class="fork"><a href="https://github.com/kbumsik/VirtScreen/fork" title="View fork details"><!--  Fork count via javascript --></a></dd>
-          <dt>Starred</dt>
-          <dd class="star"><a href="https://github.com/kbumsik/VirtScreen/stargazers" title="View fork  details"><!-- Stargazers count via javascript --></a></dd>
-        </dl>
-      </div>
+  <div class="github-card" data-gh-project="kbumsik/VirtScreen">
+    <header class="github-card-header">
+      <p class="github-card-suptitle">On <a href="https://github.com/kbumsik/VirtScreen" title="View on  GitHub">GitHub</a></p>
+      <h1 class="github-card-title"><a href="https://github.com/kbumsik/VirtScreen" title="View  more">VirtScreen</a></h1>
+    </header>
+    <div class="github-card-body">
+      <dl class="github-card-details">
+        <dt>Forked</dt>
+        <dd class="github-fork"><a href="https://github.com/kbumsik/VirtScreen/fork" title="View fork details"><!--  Fork count via javascript --></a></dd>
+        <dt>Starred</dt>
+        <dd class="github-star"><a href="https://github.com/kbumsik/VirtScreen/stargazers" title="View fork  details"><!-- Stargazers count via javascript --></a></dd>
+      </dl>
     </div>
   </div>
 </div>
